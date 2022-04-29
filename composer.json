@@ -10,14 +10,14 @@
       "MagentoEse\\DataInstall\\": ""
     }
   },
-  "repositories": {
-    "fastsimpleimport": {
+  "repositories": [
+    {
       "type": "vcs",
       "url": "https://github.com/rbrown/FireGento_FastSimpleImport2"
     }
-  },
+  ],
   "require": {
-    "firegento/fastsimpleimport": "dev-rb",
+    "firegento/fastsimpleimport": "refactoring-2022",
     "magento/extension-b2b": "^1.2"
   },
   "config": {
