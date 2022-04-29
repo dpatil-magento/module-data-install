@@ -13,7 +13,7 @@
   "repositories": {
     "fastsimpleimport": {
       "type": "vcs",
-      "url": "git@github.com:rbrown/FireGento_FastSimpleImport2.git"
+      "url": "https://github.com/rbrown/FireGento_FastSimpleImport2"
     }
   },
   "require": {
