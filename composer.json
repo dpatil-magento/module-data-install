@@ -13,11 +13,11 @@
   "repositories": [
     {
       "type": "vcs",
-      "url": "https://github.com/rbrown/FireGento_FastSimpleImport2"
+      "url": "git@github.com:dpatil-magento/FireGento_FastSimpleImport2.git"
     }
   ],
   "require": {
-    "firegento/fastsimpleimport": "dev-refactoring-2022",
+    "firegento/fastsimpleimport": "dev-rb",
     "magento/extension-b2b": "^1.2"
   },
   "config": {
