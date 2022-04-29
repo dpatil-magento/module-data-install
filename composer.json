@@ -17,7 +17,7 @@
     }
   ],
   "require": {
-    "firegento/fastsimpleimport": "refactoring-2022",
+    "firegento/fastsimpleimport": "dev-refactoring-2022",
     "magento/extension-b2b": "^1.2"
   },
   "config": {
