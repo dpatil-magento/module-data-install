@@ -1,19 +1,26 @@
 {
-    "name": "magentoese/module-data-install",
-    "type": "magento2-module",
-    "version" : "1.2.1",
-    "autoload": {
-        "files": [ "registration.php" ],
-        "psr-4": {
-            "MagentoEse\\DataInstall\\": ""
-        }
-    },
-    "require": {
-        "firegento/fastsimpleimport": "*",
-        "magento/extension-b2b": "^1.2"
+  "name": "magentoese/module-data-install",
+  "type": "magento2-module",
+  "version": "1.2.1",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "MagentoEse\\DataInstall\\": ""
     }
-    ,
-    "config": {
-        "bin-dir": "../../../../vendor/bin"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/rbrown/FireGento_FastSimpleImport2.git"
     }
+  ],
+  "require": {
+    "firegento/fastsimpleimport": "dev-rb",
+    "magento/extension-b2b": "^1.2"
+  },
+  "config": {
+    "bin-dir": "../../../../vendor/bin"
+  }
 }
