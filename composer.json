@@ -10,12 +10,12 @@
       "MagentoEse\\DataInstall\\": ""
     }
   },
-  "repositories": [
-    {
+  "repositories": {
+    "fastsimpleimport": {
       "type": "vcs",
-      "url": "https://github.com/rbrown/FireGento_FastSimpleImport2.git"
+      "url": "git@github.com:rbrown/FireGento_FastSimpleImport2.git"
     }
-  ],
+  },
   "require": {
     "firegento/fastsimpleimport": "dev-rb",
     "magento/extension-b2b": "^1.2"
